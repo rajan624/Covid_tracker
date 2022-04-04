@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-image: url(/image/background-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+   /* border: 2px solid red;*/
+    text-align: center;
+    padding-top: 3rem;;
+}
+.heading{
+    /*border: 2px solid green;*/
+    font-size: 5rem;
+    margin: 1rem 0rem;
+    opacity: 0.7;
+}
+.head2{
+    font-size: 3rem;
+    color: blue;
+    opacity: 0.8;
+}
+#date{
+    /*border: 2px solid gray;*/
+    color: green;
+    opacity: 0.8;
+    margin: 1rem 0rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.search-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+form{
+   /* border: 2px solid blue;*/
+    padding: 1rem 0rem;
+}
+label{
+    font-size: 2.5rem;
+    opacity: 0.8;
+    font-weight: bold;
+}
+#search{
+    padding: 0.5rem 1rem;
+}
+#btn1{
+    padding: 0.6rem 1rem;
+    background-color: rgb(202, 67, 18);
+    border: none;
+    color: white;
+    text-transform: capitalize;
+    margin-left: 0.6rem;
+}
+#btn1:hover{
+    box-shadow: 0rem 0rem 0.4rem 0.2rem rgb(165, 136, 125);
+}
+#searchindia{
+    padding: 0.5rem 1rem;
+}
+#btn2{
+    padding: 0.6rem 1rem;
+    background-color: rgb(211, 81, 211);
+    border: none;
+    color: white;
+    text-transform: capitalize;
+    margin-left: 0.6rem;
+}
+#btn2:hover{
+    box-shadow: 0rem 0rem 0.4rem 0.2rem rgb(165, 134, 165);
+}
+#name-country{
+    /*border: 2px solid red;*/
+    font-size: 3rem;
+    color: rgb(109, 89, 89);
+    text-transform: capitalize;
+    margin: 1rem 0rem;
+}
+.content{
+    /*border: 2px solid lightgray;*/
+    padding: 0rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+.confirmed{
+   flex: 1 1 25rem;
+   border: 2px solid lightgray;
+   border-radius: 0.6rem;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.count{
+    font-size: 1.7rem;
+    margin: 2rem 0rem;
+}
+.para{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: grey;
+    margin: 2rem 0rem;
+}
+.stat{
+    font-size:2.5rem;
+}
+.deaths{
+   flex: 1 1 25rem;
+   border: 2px solid lightgray;
+   border-radius: 0.6rem;
+}
+.recovered{
+   flex: 1 1 25rem;
+   border: 2px solid lightgray;
+   border-radius: 0.6rem;
+}
+#chartContainer{
+    /*border: 2px solid green;*/
+    padding:2rem;
+    position: relative;
+    width:80%;
+    margin: auto;
+}
